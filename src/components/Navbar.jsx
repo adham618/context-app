@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import { AuthContext } from "./Context/AuthContext";
-import { ThemeContext } from "./Context/ThemeContext";
+import { AuthContext } from "../Context/AuthContext";
+import { ThemeContext } from "../Context/ThemeContext";
 
 const Navbar = () => {
   const { isLightTheme, light, dark } = useContext(ThemeContext);

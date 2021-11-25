@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import { BookContext } from './Context/BookContext';
-import { ThemeContext } from './Context/ThemeContext';
+import { BookContext } from '../Context/BookContext';
+import { ThemeContext } from '../Context/ThemeContext';
 
 const BookList = () => {
   const { isLightTheme, light, dark } = useContext(ThemeContext);

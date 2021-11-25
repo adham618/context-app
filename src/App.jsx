@@ -3,10 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import BookList from './components/BookList';
-import ThemeContextProvider from './components/Context/ThemeContext';
+import ThemeContextProvider from './Context/ThemeContext';
 import ThemeToggle from './components/ThemeToggle';
-import AuthContextProvider from './components/Context/AuthContext';
-import BookContextProvider from './components/Context/BookContext';
+import AuthContextProvider from './Context/AuthContext';
+import BookContextProvider from './Context/BookContext';
 
 function App() {
   return (
